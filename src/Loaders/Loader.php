@@ -64,11 +64,11 @@ abstract class Loader implements LoaderInterface
      */
     abstract public function addNamespace($namespace, $hint);
 
+
     /**
-     * Add a new JSON path to the loader.
+     * Get an array of all the registered namespaces.
      *
-     * @param  string  $path
-     * @return void
-     **/
-    abstract public function addJsonPath($path);
+     * @return array
+     */
+    abstract public function namespaces();
 }
