@@ -50,17 +50,6 @@ class MixedLoader extends Loader
         );
     }
 
-
-    /**
-     * Get an array of all the registered namespaces.
-     *
-     * @return array
-     */
-    public function namespaces()
-    {
-        return $this->hints;
-    }
-
     /**
      *  Add a new namespace to the loader.
      *
